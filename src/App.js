@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./component/Header";
+import Hero from "./component/Home";
+import Features from "./component/features";
+import Home from "./component/Home";
+import  Vision from "./component/Vision";
+import AcademicsSection from "./component/AcadmicSection";
+import PlacementsSection from "./component/PlacementSection";
+import IndustrialAlliance from "./component/IndustrialAlliance";
+import  Logo from "./component/Logo";
+import CollegeCard from "./component/CollegeCard";
+import AwardsSection from "./component/AwardSection";
+import TestimonialSection from "./component/TestimonialSection";
+import Footer from "./component/Footer";
+// Uncomment the following line if you have a Footer component  
+// import Footer from "./components/Footer";
 
-function App() {
+export default function AryaCollegeLanding() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-sans text-gray-800">
+      <Header />
+      <Home/>
+      <Features />
+      <Vision/>
+      <AcademicsSection/>
+      <PlacementsSection/>
+      <IndustrialAlliance/>
+      <Logo/>
+      <CollegeCard/>
+      <AwardsSection/>
+      <TestimonialSection/>
+      <Footer/>
+      {/* <Footer /> */}
     </div>
   );
 }
 
-export default App;
