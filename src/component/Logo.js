@@ -1,12 +1,12 @@
 import React from "react";
-import image1 from "../image/image2.png"; // Ensure this path is correct
-import image2 from "../image/image3.png"; // Ensure this path is correct
-import image3 from "../image/image4.png"; // Ensure this path is correct
-import image4 from "../image/image5.png"; // Ensure this path is correct
-import image5 from "../image/image6.png"; // Ensure this path is correct
-import image6 from "../image/image7.png"; // Ensure this path is correct
-import image7 from "../image/image8.png"; // Ensure this path is correct
-// import image8 from "../image/image2.png"; // Ensure this path is correct
+import image1 from "../image/image2.png"; 
+import image2 from "../image/image3.png"; 
+import image3 from "../image/image4.png";
+import image4 from "../image/image5.png"; 
+import image5 from "../image/image6.png"; 
+import image6 from "../image/image7.png"; 
+import image7 from "../image/image8.png";
+
 
 const allianceLogos = [
 image1, image2, image3, image4, image5, image6, image7

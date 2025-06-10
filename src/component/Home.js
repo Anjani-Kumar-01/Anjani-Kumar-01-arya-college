@@ -27,7 +27,7 @@ export default function Home() {
             className="rounded-3xl w-full max-w-md"
             onClick={() => window.open("https://youtu.be/p2hqg0LtVN4?si=LxP_PP0UYp9bk5hi")}
           />
-          {/* <p className="mt-2 text-sm text-center text-gray-500">🧭 360° Virtual Tour</p> */}
+          
         </div>
       </div>
     </section>

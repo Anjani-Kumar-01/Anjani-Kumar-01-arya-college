@@ -4,7 +4,7 @@ import about from "../image/about.jpg";
 function InfoCard({ title, points, color }) {
   return (
     <div className="bg-gray-100 rounded-lg flex shadow relative overflow-hidden">
-      {/* Vertical Label */}
+    
       <div
         className={`text-white text-xs font-bold px-2 py-2 ${color} flex items-center justify-center`}
         style={{
@@ -16,7 +16,7 @@ function InfoCard({ title, points, color }) {
         {title}
       </div>
 
-      {/* List */}
+
       <ul className="pl-4 pr-3 py-4 text-sm text-gray-700 space-y-2">
         {points.map((point, idx) => (
           <li key={idx}>{point}</li>
@@ -29,8 +29,8 @@ function InfoCard({ title, points, color }) {
 export default function Vision() {
   return (
     <section className="px-4 md:px-16 py-12 bg-white">
-      {/* Heading & Intro */}
-        {/* Heading & Intro - CENTERED */}
+      
+        {/* Heading & Intro*/}
       <div className="mb-10 text-center flex flex-col items-center">
         <h2 className="text-3xl font-bold text-blue-800 mb-2">Arya College Jaipur</h2>
         <p className="text-gray-700 max-w-2xl text-center">
@@ -41,9 +41,9 @@ export default function Vision() {
       </div>
 
 
-      {/* Grid: Left (Info) | Right (Image) */}
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-        {/* Left: Info Cards */}
+        {/* Info Cards */}
         <div className="space-y-6">
           <InfoCard
             title="Our Mission"
@@ -65,7 +65,7 @@ export default function Vision() {
           />
         </div>
 
-        {/* Right: Image with Overlay */}
+        {/* Image  */}
         <div className="relative rounded-lg overflow-hidden shadow-lg">
           <img src={about} alt="Campus" className="w-full h-full object-cover rounded-lg" />
           <div className="absolute bottom-4 right-4 bg-white p-3 rounded-lg shadow text-sm w-48">
