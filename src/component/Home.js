@@ -4,7 +4,7 @@ import { RxDownload } from "react-icons/rx";
 
 export default function Home() {
   return (
-    <section className="bg-gray-50 py-12 px-6 md:px-20 flex flex-col-reverse md:flex-row items-center justify-between">
+    <section className="bg-gray-50 py-12 px-6 md:px-20  gap-15 flex flex-col md:flex-row items-center justify-between">
       <div className="max-w-lg">
         <div className="flex space-x-4 items-center mb-4">
           <span className="bg-red-500 text-white px-3 py-1 text-sm rounded">Admission Open 2023</span>
@@ -19,7 +19,7 @@ export default function Home() {
           <button className="border border-blue-700 text-blue-700 px-6 py-2 rounded hover:bg-blue-50">Read More</button>
         </div>
       </div>
-      <div className="mb-8 md:mb-0 md:w-1/2 flex justify-center">
+      <div className="mb-5 md:mb-0 md:w-1/2 flex justify-center">
         <div className="relative">
           <img
             src={banner}
