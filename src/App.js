@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./component/Header";
-import Hero from "./component/Home";
+
 import Features from "./component/features";
 import Home from "./component/Home";
 import  Vision from "./component/Vision";
