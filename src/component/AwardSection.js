@@ -1,4 +1,4 @@
-// AwardsSection.jsx
+
 import React, { useState } from 'react';
 import image1 from "../image/studentimg1.png";
 import image2 from "../image/studentimg2.png";
