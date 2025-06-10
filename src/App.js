@@ -12,8 +12,7 @@ import CollegeCard from "./component/CollegeCard";
 import AwardsSection from "./component/AwardSection";
 import TestimonialSection from "./component/TestimonialSection";
 import Footer from "./component/Footer";
-// Uncomment the following line if you have a Footer component  
-// import Footer from "./components/Footer";
+
 
 export default function AryaCollegeLanding() {
   return (
